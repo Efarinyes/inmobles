@@ -1,0 +1,22 @@
+.imatgebg {
+    color: #FFF;
+    height: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titol {
+    font-size: 2.5rem;
+    margin: 0;
+    max-width: 800px;
+}
+
+@media (min-width: 992px) {
+    .titol {
+        font-size: 4rem;
+    }
+}
